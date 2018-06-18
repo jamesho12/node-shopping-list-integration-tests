@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy: still-citadel-84937
+  provider: heroku
+  api_key:
+    secure: VGSt+ZEq+MFc/aKfO2qwQKOIO/URkJ/jLfxfeiTO6v0bG36CmCO3nLBz9JASOt6nfDe9s69ckQFPs/VqP11ehWo5Os9/3CuaMj8Scmz5JmjRsZO5aqHy/npzs1kUDYI98YN4YJn6cPqjbaJP7Hk2q4Er5sal+7sLPOpO19XB1WBKomGTCnzTarBUZa1P0Th/Upj+mdP9qI2zvRT67Nj0/y/TSsce+oTd1u5VO2evv+x5XCUsI1CA7CjyLq7NHAodBUCQdJL5e/ubN89LkHaJBjUdNLnWVqdr1zJtRegllvJFkrTuyggA9GPiS7VxHoycKzDnmCe0GG+oUBsQqe5MtF0iQEvmRuCYt2xOgawE+vNtgOb0pwBOb3PFEFgcg9Nsb87BTF8C4TFOSljUkG6jeX7l9B28YBoPFp8oGMGGLqtYgywOkQ6fhijuAxuB2HFpmF8wM9vLr9qpWJfJYoR+OcNaVvSw5295wW037s6s/uOUbAyDFiMVAmRn3OtC5//LqDXN7Nt6Sbduv03hqK3+7m/L33YjH43OtOH/4MFG8Rc/mEAiEoss/UbY3oRXQ9cdjJK4Ts69DSpmZuCKO9Q64sYkbWbNerVVTt2wLgWqYSUhStRzNLsNh6PVZ33h1xu6lOTd+VC5XikQTqmP1qyfoJ5dkUE6SVomTWBTk/dDtFU=
+  app: node-shopping-list-integration-tests
+  on:
+    repo: jamesho12/node-shopping-list-integration-tests
